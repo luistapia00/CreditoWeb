@@ -11,7 +11,7 @@ namespace CreditoWeb.Models
         public TipoTarjeta TipoTarjeta { get; set; }
 
         public bool Valida { get; set; }
-     
+      
         public Tarjeta(string tarjetaNum)
         {
             this.TarjetaNum = tarjetaNum;
